@@ -1,17 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PythonMachineLearning.com</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Python Machine Learning</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="machinelearning.webp" type="image/webp">
+  <link rel="apple-touch-icon" href="machinelearning.webp">
+
+  <style>
+    body{
+      margin:0;
+      background:#000;
+    }
+
+    .pml-wrap{
+      min-height:100vh;
+      background:#000;
+      color:#fff;
+      font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      padding:18px;
+      box-sizing:border-box;
+    }
+
+    .pml-card{
+      width:100%;
+      max-width:820px;
+      text-align:center;
+      padding:22px 16px;
+      border:1px solid rgba(255,255,255,0.12);
+      border-radius:18px;
+      background:rgba(255,255,255,0.04);
+      box-shadow:0 10px 30px rgba(0,0,0,0.55);
+      box-sizing:border-box;
+
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      justify-content:center;
+      gap:14px;
+    }
+
+    .pml-badge{
+      display:inline-block;
+      padding:7px 12px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,0.18);
+      background:rgba(255,255,255,0.06);
+      font-size:12px;
+      letter-spacing:0.6px;
+      text-transform:uppercase;
+      color:#fff;
+    }
+
+    .pml-title{
+      margin:0;
+      font-size:34px;
+      line-height:1.15;
+      font-weight:850;
+      color:#fff;
+    }
+
+    .pml-text{
+      margin:0;
+      width:100%;
+      max-width:720px;
+      font-size:18px;
+      line-height:1.65;
+      color:rgba(255,255,255,0.88);
+      overflow-wrap:anywhere;
+    }
+
+    .pml-actions{
+      width:100%;
+      display:flex;
+      flex-wrap:wrap;
+      gap:12px;
+      justify-content:center;
+      margin-top:6px;
+    }
+
+    .pml-btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding:12px 16px;
+      border-radius:12px;
+      text-decoration:none;
+      font-weight:750;
+      width:100%;
+      max-width:320px;
+      box-sizing:border-box;
+    }
+
+    .pml-btn-primary{
+      background:#fff;
+      color:#111;
+    }
+
+    .pml-btn-primary:hover{
+      background:#f2f2f2;
+    }
+
+    .pml-btn-ghost{
+      background:transparent;
+      color:#fff;
+      border:1px solid rgba(255,255,255,0.28);
+    }
+
+    .pml-footer{
+      margin-top:6px;
+      font-size:13px;
+      color:rgba(255,255,255,0.68);
+      line-height:1.6;
+      text-align:center;
+    }
+
+    .pml-social{
+      margin-top:10px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px 14px;
+      justify-content:center;
+    }
+
+    .pml-social a{
+      color:rgba(255,255,255,0.75);
+      text-decoration:none;
+      font-weight:600;
+      font-size:13px;
+      white-space:nowrap;
+    }
+
+    .pml-social a:hover{
+      color:#fff;
+      text-decoration:underline;
+    }
+
+    @media (max-width:480px){
+      .pml-card{ padding:18px 14px; }
+      .pml-title{ font-size:28px; }
+      .pml-text{ font-size:16px; }
+    }
+  </style>
 </head>
+
 <body>
-    <header
-        <h1>Learn Python</h1>
-    </header>
-    <footer>
-        <p>&copy; 2025 PythonMachineLearning.com</p>
-    </footer>
+
+  <div class="pml-wrap">
+    <div class="pml-card">
+
+      <img
+        src="machinelearning.webp"
+        alt="Python Machine Learning"
+        width="100"
+        height="100"
+        loading="lazy"
+        style="display:block;margin:0 auto;border-radius:14px;object-fit:cover;"
+      >
+
+      <div class="pml-badge">Announcement</div>
+
+      <h1 class="pml-title">Python Machine Learning 🚀</h1>
+
+      <p class="pml-text">
+        We’re focusing on growing the official YouTube channel
+        <strong style="color:#fff;">@PythonMachineLearning</strong>
+        and publishing high-quality Python & machine learning content.
+        <br>
+        <span style="font-size:14px;color:rgba(255,255,255,0.65);">
+          Updated: February 10, 2026
+        </span>
+      </p>
+
+      <div class="pml-actions">
+        <a class="pml-btn pml-btn-primary"
+           href="https://www.youtube.com/@PythonMachineLearning?sub_confirmation=1"
+           target="_blank" rel="noopener">
+          ▶ Subscribe on YouTube
+        </a>
+
+        <a class="pml-btn pml-btn-ghost"
+           href="https://www.youtube.com/@PythonMachineLearning"
+           target="_blank" rel="noopener">
+          Visit Channel
+        </a>
+      </div>
+
+      <div class="pml-footer">
+        &copy; 2026 PythonMachineLearning.com. All rights reserved.
+
+        <div class="pml-social">
+          <a href="https://www.facebook.com/pythonmachinelearning/" target="_blank" rel="noopener">Facebook</a>
+          <a href="https://github.com/pythonml-lab" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/company/pyguru/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.instagram.com/python_machine_learning/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.threads.net/@python_machine_learning" target="_blank" rel="noopener">Threads</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
 </body>
 </html>
