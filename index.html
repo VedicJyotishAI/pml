@@ -148,6 +148,23 @@
       .pml-title{ font-size:28px; }
       .pml-text{ font-size:16px; }
     }
+
+     /* YouTube Shorts embed (responsive vertical) */
+    .shorts-embed{
+      position: relative;
+      width: min(420px, 100%);
+      aspect-ratio: 9 / 16;
+      margin: 20px auto;
+      overflow: hidden;
+      border-radius: 12px;
+    }
+    .shorts-embed iframe{
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
   </style>
 </head>
 
@@ -204,6 +221,14 @@
       </div>
 
     </div>
+      <!-- YouTube Short Embed -->
+  <div class="shorts-embed">
+    <iframe
+      src="https://www.youtube.com/embed/hJvRNbvIu1I"
+      title="YouTube Short"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe>
   </div>
 
 </body>
